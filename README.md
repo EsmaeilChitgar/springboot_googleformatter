@@ -1,5 +1,7 @@
 # springboot_googleformatter
 
-You can reformat your code according to google java format by doing the following steps:
+You can reformat your code according to google java code-style by doing the following steps:
 - adding google-reformat plugin into pom.xml
-- ruuning the command: 'mvn clean install'
+- run one of the following commands:
+  - mvn clean install
+  - mvn googleformatter:format@reformat-sources
